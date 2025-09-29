@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Monitor Support</title>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f0f4f8;
+    color: #333;
+  }
+
+  header {
+    background: linear-gradient(135deg, #3B82C4, #60A5FA);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  nav {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3B82C4;
+    font-weight: bold;
+  }
+
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  h2 {
+    color: #3B82C4;
+    margin-bottom: 20px;
+  }
+
+  .faq details {
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  .faq summary {
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .contact {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .contact a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #3B82C4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .contact a:hover {
+    background: #2563EB;
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  footer a {
+    color: #60A5FA;
+    text-decoration: none;
+  }
+
+  .screenshots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+
+  .screenshots img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+.app-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; 
+  display: block;
+  margin: 0 auto 15px auto; 
+  border: 3px solid #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <img src="images/applogo.png" alt="Weather Monitor Logo" class="app-logo">
+    <h1>Weather Monitor - Support</h1>
+    <p>Your reliable weather companion 🌤</p>
+  </header>
+
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="features">
+    <h2>App Features</h2>
+    <p>Weather Monitor helps you stay prepared by providing accurate, real-time weather updates:</p>
+    <ul>
+      <li>🌦 Live local weather updates</li>
+      <li>📍 Location-based forecasts</li>
+      <li>🌡 Switch between °C / °F</li>
+      <li>📊 Hourly & 7-day forecast</li>
+      <li>🔔 Severe weather alerts</li>
+      <li>☀️ Weather widgets for quick glance</li>
+      <li>🌙 Night mode for low light</li>
+    </ul>
+    <div class="screenshots">
+      <img src="images/Simulator Screenshot - iPhone 16 Pro Max - 2025-08-24 at 11.09.27.png" alt="App Screenshot 1"/>
+      <img src="images/Simulator Screenshot - iPhone 16 Pro Max - 2025-08-24 at 11.09.38.png" alt="App Screenshot 2"/>
+      <img src="images/Simulator Screenshot - iPhone 16 Pro Max - 2025-08-24 at 11.20.08.png" alt="App Screenshot 3"/>
+      <img src="images/Simulator Screenshot - iPhone 16 Pro Max - 2025-08-24 at 11.20.16.png" alt="App Screenshot 4"/>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>Why is the weather not updating?</summary>
+      <p>Ensure your internet connection is active and location services are turned on.</p>
+    </details>
+    <details>
+      <summary>How do I change temperature units?</summary>
+      <p>Go to <strong>Settings → Units</strong> and switch between °C or °F.</p>
+    </details>
+    <details>
+      <summary>Can I get severe weather alerts?</summary>
+      <p>Yes! Turn on notifications in the app’s settings to receive alerts.</p>
+    </details>
+    <details>
+      <summary>Can I use the app offline?</summary>
+      <p>Some features like live updates require internet, but cached forecasts can be seen offline.</p>
+    </details>
+    <details>
+      <summary>How do I reset app settings?</summary>
+      <p>Go to <strong>Settings → Reset App</strong> to restore defaults.</p>
+    </details>
+    <details>
+      <summary>How accurate are the forecasts?</summary>
+      <p>Weather Monitor uses trusted APIs for real-time updates, but forecasts may vary depending on location and data availability.</p>
+    </details>
+    <details>
+      <summary>Can I customize notifications?</summary>
+      <p>Yes! In <strong>Settings → Notifications</strong>, you can choose alerts for rain, storms, or temperature changes.</p>
+    </details>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Support</h2>
+    <p>If you didn’t find your answer above, reach out to us:</p>
+    <a href="mailto:pauversil@devadedoyin.co.uk">📩 Email Support</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Weather Monitor. All rights reserved.</p>
+    <p><a href="https://devadedoyin.github.io/weather-monitor-support/">Home</a></p>
+  </footer>
+</body>
+</html>
